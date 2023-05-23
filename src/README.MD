@@ -63,4 +63,4 @@ Deve-se criar o repositório no GitHub
 ```js
 git remote add origin [link_do_repositorio_github]
 ```
-### 2.3 - Repetir a partir do item 2 - Adicionar as alterações que serãpo enviadas.
+### 2.3 - Repetir a partir do item 2 - Adicionar as alterações que serãpo enviadas

@@ -7,15 +7,16 @@ import Contato from './pages/Contato.jsx'
 import Home from './pages/Home.jsx'
 import Sobre from './pages/sobre.jsx'
 import Cadastro from './pages/cadastro.jsx'
+import { Login } from './pages/Login'
+
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        
-
-      <nav>
+      
+    {/* <nav>
         <ul>
           <li>
             <Link to='/cadastro'>Cadastro</Link>
@@ -30,14 +31,16 @@ function App() {
           </li>
 
         </ul>
-      </nav>
+      </nav> */}
       <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/login' element={<Login />} />
           <Route path='/cadastro' element={<Cadastro />} />
           <Route path='/sobre' element={<Sobre />} />
           <Route path='/contato' element={<Contato />} />
         </Routes>
       </BrowserRouter>
+      
     </>
   )
 }
